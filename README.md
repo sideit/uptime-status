@@ -28,7 +28,8 @@ git clone https://github.com/sideit/uptime-status.git  "github项目地址栏"
 
 cd uptime-status
 
-# 安装依赖 推荐使用 yarn  “用Node16.15.1版本不然会出现以下错误”#“/www/server/nodejs/v18.12.0/bin/node: /lib64/libm.so.6: version `GLIBC_2.27' not found (required by /www/server/nodejs/v18.12.0/bin/node)
+# 安装依赖 推荐使用 yarn  “用Node16.15.1版本不然会出现以下错误”
+#“/www/server/nodejs/v18.12.0/bin/node: /lib64/libm.so.6: version `GLIBC_2.27' not found (required by /www/server/nodejs/v18.12.0/bin/node)
 /www/server/nodejs/v18.12.0/bin/node: /lib64/libc.so.6: version `GLIBC_2.28' not found (required by /www/server/nodejs/v18.12.0/bin/node)”#
 
 #安装命令
