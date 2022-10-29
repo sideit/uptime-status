@@ -33,10 +33,10 @@ cd uptime-status
 /www/server/nodejs/v18.12.0/bin/node: /lib64/libc.so.6: version `GLIBC_2.28' not found (required by /www/server/nodejs/v18.12.0/bin/node)”#
 
 #安装命令
-npm install
+npm i --unsafe-perm=true
 
 # 本地运行 
-npm run serve
+npm run start
 
 # 编译打包
 npm run build
