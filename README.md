@@ -19,8 +19,28 @@
 3- 绑定网站域名，恭喜部署完成！
 可以使用Vercel部署网站，登录vercel官网注册账号并绑定Github,导入新项，选择导入Git存储库，选择个人账号，点击部署。
 
-## 本地调试
-### 安装依赖
+## 服务器安装
+
+# 下载 项目地址
+git clone https://github.com/sideit/uptime-status.git  "github项目地址栏"
+
+# 进入 目录 “项目地址后缀就是文件名”
+
+cd uptime-status
+
+# 安装依赖 推荐使用 yarn  “用Node16.15.1版本不然会出现以下错误”#“/www/server/nodejs/v18.12.0/bin/node: /lib64/libm.so.6: version `GLIBC_2.27' not found (required by /www/server/nodejs/v18.12.0/bin/node)
+/www/server/nodejs/v18.12.0/bin/node: /lib64/libc.so.6: version `GLIBC_2.28' not found (required by /www/server/nodejs/v18.12.0/bin/node)”#
+
+#安装命令
+npm install
+
+# 本地运行 
+npm run serve
+
+# 编译打包
+npm run build
+
+### 安装依赖 
 ```
 npm i --unsafe-perm=true
 ```
